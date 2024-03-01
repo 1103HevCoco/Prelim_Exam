@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Prelim_Exam</title>
+    <title>Activity 2</title>
     <style>
-        #div1 {
-           text-align: center;
-       }
-       #btnRegis:hover{
-           font-size: large;
-           cursor:pointer;
-           font-size: x-large;
-       }
-       #btnCan:hover{
-           font-size: large;
-           cursor:pointer;
-           font-size: x-large;
-       }
-   </style>
+         #div1 {
+            text-align: center;
+        }
+        #btnRegis:hover{
+            font-size: large;
+            cursor:pointer;
+            font-size: x-large;
+        }
+        #btnCan:hover{
+            font-size: large;
+            cursor:pointer;
+            font-size: x-large;
+        }
+    </style>
 </head>
 <body style="background-color: lightgoldenrodyellow;">
           <h1 style="text-align: center">Register</h1>
@@ -49,11 +49,20 @@
            <br>
         <div style="text-align: center">
                 <a href="./index.html">             
-            <button style="color: Green" id="btnRegis">Register</button></a>
+            <button style="color: rgb(97, 24, 24)" id="btnRegis">Register</button></a>
                     </div> 
                     <div style="text-align: center;">
                     <a href="./index.html"><button style="color: darkgreen" id="btnCan">Cancel</button></a>
                 </div>
         </div>
+        <script>
+            // Javascript
+            console.log("Sup Sugarplum");
+        
+            let buttonLogin = document.querySelector('#btnRegis');
+            buttonLogin.onclick =function () {
+                alert("Rehistrado ka na Tropa!")
+            }
+        </script>
 </body>
 </html>
